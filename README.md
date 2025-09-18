@@ -30,3 +30,12 @@ dart run bin/smart_ahwa_manager.dart
 ## Notes
 - Uses singleton drink instances to avoid Dropdown identity equality issues
 - Can replace in-memory repository with persistent storage (SQLite/Hive) by implementing new `OrderRepository` without changing services or UI
+
+## Screenshots
+Place your screenshots in `assets/images/` and reference them here, for example:
+
+```
+![Dashboard](assets/images/Screenshot 2025-09-18 195543.png)
+![Add Order](assets/images/Screenshot 2025-09-18 195557.png)
+![Report](assets/images/Screenshot 2025-09-18 195623.png)
+```
