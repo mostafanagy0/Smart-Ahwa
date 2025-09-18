@@ -16,7 +16,14 @@ A smart coffee shop management app built with Flutter that helps cafe owners man
 - `lib/features/orders/presentation/dashboard_screen.dart`: Order dashboard with add, complete, and report functionality
 - `bin/smart_ahwa_manager.dart`: Standalone console app for testing logic without UI
 
+## Running the App
+Flutter app:
+```
+flutter run
+```
 
+Console version:
+```
 dart run bin/smart_ahwa_manager.dart
 ```
 
@@ -32,10 +39,7 @@ dart run bin/smart_ahwa_manager.dart
 - Can replace in-memory repository with persistent storage (SQLite/Hive) by implementing new `OrderRepository` without changing services or UI
 
 ## Screenshots
-Place your screenshots in `assets/images/` and reference them here, for example:
 
-```
-![Dashboard](assets/images/Screenshot 2025-09-18 195543.png)
-![Add Order](assets/images/Screenshot 2025-09-18 195557.png)
-![Report](assets/images/Screenshot 2025-09-18 195623.png)
-```
+![Dashboard](assets/images/Screenshot%202025-09-18%20195543.png)
+![Add Order](assets/images/Screenshot%202025-09-18%20195557.png)
+![Report](assets/images/Screenshot%202025-09-18%20195623.png)
